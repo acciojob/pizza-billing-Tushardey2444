@@ -81,7 +81,7 @@ public class Pizza {
                 }
             }
             if (this.bagAdded) {
-                bill += "Paperbag Added: " + this.paperBag + "\n";
+                bill += "PaperBag Added: " + this.paperBag + "\n";
             }
             this.bill += "Total Price: " + this.price + "\n";
             this.billGenerated=true;
