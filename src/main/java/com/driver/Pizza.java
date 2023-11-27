@@ -12,7 +12,7 @@ public class Pizza {
     private boolean bagAdded;
     private boolean billGenerated;
     private int price;
-    private final Boolean isVeg;
+    private Boolean isVeg;
     private String bill;
 
     public Pizza(Boolean isVeg){
@@ -21,6 +21,7 @@ public class Pizza {
         this.toppingsAdded=false;
         this.bagAdded=false;
         this.billGenerated=false;
+        this.bill="";
         // your code goes here
         if(this.isVeg){
             this.price=this.veg;
