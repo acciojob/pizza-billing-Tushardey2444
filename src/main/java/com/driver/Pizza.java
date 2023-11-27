@@ -43,12 +43,12 @@ public class Pizza {
     public void addExtraToppings(){
         // your code goes here
         if(isVeg){
-            if(!toppingsAdded && cheeseAdded){
+            if(!toppingsAdded){
                 this.price+=this.extraToppingVeg;
                 this.toppingsAdded = true;
             }
         }else{
-            if(!toppingsAdded && cheeseAdded) {
+            if(!toppingsAdded) {
                 this.price += this.extraToppingNonVeg;
                 this.toppingsAdded = true;
             }
