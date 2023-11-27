@@ -34,7 +34,7 @@ public class Pizza {
     public void addExtraCheese(){
         // your code goes here
         if(!cheeseAdded){
-            this.price+=this.extraCheese;;
+            this.price+=this.extraCheese;
             this.cheeseAdded=true;
         }
     }
@@ -81,7 +81,7 @@ public class Pizza {
                 }
             }
             if (this.bagAdded) {
-                bill += "PaperBag Added: " + this.paperBag + "\n";
+                bill += "Paperbag Added: " + this.paperBag + "\n";
             }
             this.bill += "Total Price: " + this.price + "\n";
             this.billGenerated=true;
